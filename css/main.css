@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     line-height: 1.4;
     background: #000;
-    height: 3000px;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -22,6 +22,11 @@ img {
 
 a {
     text-decoration: none;
+    color: #333;
+}
+
+.material-icons {
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -33,6 +38,7 @@ header {
     justify-content: space-between;
     display: flex;
     position: fixed;
+    z-index: 3;
 }
 
 header>.wrapper {
